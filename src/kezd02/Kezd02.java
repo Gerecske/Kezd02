@@ -17,6 +17,7 @@ public class Kezd02 {
     public static void main(String[] args) {
         // TODO code application logic here
         /*
+        //Buborékos
         int[] tomb = {3,6,2,6,5,7,2,4,6};
         int n = 9;
         
@@ -33,6 +34,7 @@ public class Kezd02 {
             System.out.print(tomb[i] + ", ");
         }
         */
+        //Beszúrásos
         int[] t = {5,7,3,6,8,3,1,3,5,7};
         for (int i = 0; i < t.length; i++) {
             int x = t[i];
@@ -46,6 +48,7 @@ public class Kezd02 {
         for (int i = 0; i < 10; i++) {
             System.out.print(t[i] + ", ");
         }
+       
     }
     
 }
